@@ -1,0 +1,33 @@
+{
+    "name": "open-functions/mcp",
+    "description": "",
+    "type": "library",
+    "homepage": "https://github.com/open-functions/mcp",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Florian Weigang",
+            "email": "florian@assistant-engine.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "OpenFunctions\\Tools\\MCP\\": "src/"
+        }
+    },
+    "require": {
+        "open-functions/open-functions": "dev-main",
+        "phrity/websocket": "^3.3"
+    },
+    "require-dev": {
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

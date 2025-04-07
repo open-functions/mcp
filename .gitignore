@@ -1,0 +1,8 @@
+/vendor/
+/demo/
+/.env
+.idea/
+composer.lock
+/NOTES.md
+/combine/
+/cleanup.sh
